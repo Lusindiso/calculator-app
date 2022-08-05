@@ -6,10 +6,10 @@ class Button extends PureComponent {
   render() {
     const { value, handleClick } = this.props;
     return (
-    // eslint-disable-next-line react/button-has-type
       <button
         className={`button ${value === '0' ? 'btn' : ''}`}
         onClick={() => handleClick(value)}
+        type="button"
       >
         {value}
       </button>
