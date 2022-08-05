@@ -13,6 +13,13 @@
 - CSS.
 - GitFlow.
 
+## Getting Started
+
+To get a local copy up and running,follow these simple steps
+- Clone this repository to your local machine
+- run npm install
+
+
 ## Run the app in the development mode(Port 3000)
 
 ```
