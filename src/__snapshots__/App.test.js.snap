@@ -622,3 +622,14 @@ exports[`component test Quote component should perform correctly on initial run 
   </p>
 </main>
 `;
+
+exports[`component test Screen component should perform correctly on initial run 1`] = `
+<div
+  className="screen"
+>
+  <p />
+  <p
+    className="operation"
+  />
+</div>
+`;
