@@ -17,7 +17,7 @@ const Calculator = () => {
   };
   return (
     <div className="calculator">
-      <Screen value={state} />
+      <Screen total={state.total} next={state.next} operation={state.operation} />
       <div className="bottom">
         <Last handleClick={handleClick} />
         <Buttons handleClick={handleClick} />
